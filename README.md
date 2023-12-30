@@ -17,14 +17,12 @@ Creating the shooting for a twinstick shooter is quite hard designwise. Being th
 
 ## The Good, 
 Data assets for everything. Well, two things. Weapon behavior and Projectile behavior. This creates **a lot of flexibility**, the biggest being the possibility to easily swap data assets on demand, completely changing the behavior of projectiles during their lifetime. This built the possibility of creating very complex weapons since we can link projectile behaviors together by having the keep track of the next behavior and so on. Together with bullets themselves being able to create new bullets after a certain time or on destruction we can create almost any type of projectile imaginable (assuming we also have the movement required for it).
-Add two different shooting gifs here 
 
 
 ## The Bad 
 As someone who very much enjoys clean and maintainable code, this project pained me a bit. If I had to place it somewhere in my favorite triangle it had to be around here:
 
-
-
+<img src="https://github.com/LostmyCigar/TombOfAlar/assets/60781151/93463e52-2592-4d97-92a0-e201bcfa4599" width=30% height=250%>
 
 A big chunk of the code is in the same few files and it would be hard for someone who hasn't worked in them to just jump in and take over.
 
@@ -42,3 +40,6 @@ In my previous projects I’ve always tried to do a more component-based structu
 
 ## Working with Designers
 As soon as designers could start working with shooting I created a small guide on how it all worked and how to create new “weapons” in blueprints. This was so that designers could have something to follow while working and did not require me to repeat explanations multiple times. After a while this guide became outdated, but at that point everyone working with weapons had a grasp on how they worked so that it was no longer needed. 
+
+![ToA_BlueprintGuide](https://github.com/LostmyCigar/TombOfAlar/assets/60781151/1d67339c-cb65-413f-9918-c10dcc36388b)
+
