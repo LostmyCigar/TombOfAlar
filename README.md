@@ -28,9 +28,7 @@ _Here is how it looks for designers when they edit bullet behaviour_
 ## The Bad 
 As someone who very much enjoys clean and maintainable code, this project pained me a bit. If I had to place it somewhere in my favorite triangle it had to be around here: 
 
-<img src="https://github.com/LostmyCigar/TombOfAlar/assets/60781151/93463e52-2592-4d97-92a0-e201bcfa4599" align="left" width=30% height=25%>
-
-
+<img src="https://github.com/LostmyCigar/TombOfAlar/assets/60781151/93463e52-2592-4d97-92a0-e201bcfa4599" align="center" width=30% height=25%>
 
 A big chunk of the code is in the same few files and it would be hard for someone who hasn't worked in them to just jump in and take over.
 
