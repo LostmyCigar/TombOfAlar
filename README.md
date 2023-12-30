@@ -16,13 +16,21 @@ Tomb of Alar's creation was dictated by deadlines. We decided early on as a grou
 Creating the shooting for a twinstick shooter is quite hard designwise. Being the absolute core-mechanic of the game, it completely dictates whether the end product feels good to play or not. Because of this we wanted designers to be able to try out and iterate over multiple different designs for the shooting. This becomes a challenge of **teamwork** and **effective communication**. Designers were working with the tool as soon as it became possible and new features had to be created on demand. We needed clear communication on what features needed prioritization over others as well as me giving instruction on how to use everything. 
 
 ## The Good, 
+
 Data assets for everything. Well, two things. Weapon behavior and Projectile behavior. This creates **a lot of flexibility**, the biggest being the possibility to easily swap data assets on demand, completely changing the behavior of projectiles during their lifetime. This built the possibility of creating very complex weapons since we can link projectile behaviors together by having the keep track of the next behavior and so on. Together with bullets themselves being able to create new bullets after a certain time or on destruction we can create almost any type of projectile imaginable (assuming we also have the movement required for it).
 
 
-## The Bad 
-As someone who very much enjoys clean and maintainable code, this project pained me a bit. If I had to place it somewhere in my favorite triangle it had to be around here:
+<img src="https://github.com/LostmyCigar/TombOfAlar/assets/60781151/3129e540-3349-48fe-91f4-d7798e39b447" width=50% height=55%>
 
-<img src="https://github.com/LostmyCigar/TombOfAlar/assets/60781151/93463e52-2592-4d97-92a0-e201bcfa4599" width=30% height=250%>
+_Here is how it looks for designers when they edit bullet behaviour_
+
+
+## The Bad 
+As someone who very much enjoys clean and maintainable code, this project pained me a bit. If I had to place it somewhere in my favorite triangle it had to be around here: 
+
+<img src="https://github.com/LostmyCigar/TombOfAlar/assets/60781151/93463e52-2592-4d97-92a0-e201bcfa4599" align="left" width=30% height=25%>
+
+
 
 A big chunk of the code is in the same few files and it would be hard for someone who hasn't worked in them to just jump in and take over.
 
