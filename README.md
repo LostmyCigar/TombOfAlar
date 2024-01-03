@@ -4,7 +4,7 @@
 
 Note: I will not be writing detailed information code implementation here. This will be more about the code structure and how we worked as a team.
 
-Some things I did gameplay wise here and would live to talk about in person though are: 
+Some things I did gameplay wise here and would love to talk about in person though are: 
 
   - **Projectile movement**
 Targeting, Turning, Accelerating, Deaccelerating, etc
