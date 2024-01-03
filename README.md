@@ -1,5 +1,7 @@
 # TombOfAlar
 
+_This read me exist incase of issues with the portfolio website_
+
 Note: I will not be writing detailed information code implementation here. This will be more about the code structure and how we worked as a team.
 
 Some things I did gameplay wise here and would live to talk about in person though are: 
